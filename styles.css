@@ -99,7 +99,7 @@ body {
   width: 100%;
   height: 16rem;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 0 0 0.5rem 0.5rem;
   display: flex;
   flex-direction: column;
@@ -164,4 +164,19 @@ body {
   #terminal #terminal-body #education-items {
     flex-direction: row;
   }
+}
+
+@media (max-height: 400px) {
+  #profile {
+    gap: .5rem;
+  }
+
+  #profile img {
+    width: 8rem;
+  }
+
+  #terminal #terminal-body {
+    height: 12rem;
+  }
+
 }
