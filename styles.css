@@ -120,9 +120,13 @@ body {
   }
   
   #terminal {
-    width: fit-content;
+    width: 40%;
     margin-left: 0;
     padding-bottom: 1rem;
+  }
+
+  #terminal #terminal-header {
+    width: 100%;
   }
 
   #terminal #terminal-body {
