@@ -101,13 +101,41 @@ body {
   padding: 1rem;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 0 0 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #terminal #terminal-body p span {
   font-family: "Roboto Mono", monospace;
 }
 
-@media (min-width: 700px) {
+#terminal #terminal-body #education-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#terminal #terminal-body #education-items span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#terminal #terminal-body #education-items span img {
+  width: 2rem;
+  opacity: 0.2;
+  transition: opacity 0.2s;
+}
+
+#terminal #terminal-body #education-items span img:hover {
+  width: 2rem;
+  opacity: 1;
+}
+
+@media (min-width: 820px) {
   body {
     flex-direction: row;
     align-items: center;
@@ -118,7 +146,7 @@ body {
     width: fit-content;
     margin-right: 0;
   }
-  
+
   #terminal {
     width: 40%;
     margin-left: 0;
@@ -133,4 +161,7 @@ body {
     height: 20rem;
   }
 
+  #terminal #terminal-body #education-items {
+    flex-direction: row;
+  }
 }
