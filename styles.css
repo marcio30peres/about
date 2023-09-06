@@ -13,7 +13,12 @@ body {
   gap: 1.5rem;
   width: 100vw;
   height: 100vh;
-  background: black url(./assets/background.png) no-repeat center/cover;
+  background: linear-gradient(
+    45deg,
+    rgb(0, 4, 12),
+    rgb(17, 7, 78),
+    rgb(89, 24, 133)
+  );
 }
 
 #profile {
@@ -168,7 +173,7 @@ body {
 
 @media (max-height: 400px) {
   #profile {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   #profile img {
@@ -178,5 +183,4 @@ body {
   #terminal #terminal-body {
     height: 12rem;
   }
-
 }
