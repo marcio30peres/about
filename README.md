@@ -4,7 +4,7 @@
 
 ## Project
 
-My about page aims to list all may main skills as regards web development, the education degrees I completed along my journey as a developer and also available ways to contact me with simple and dynamic features.
+My about page aims to list all my main skills as regards web development, the education degrees I completed along my journey as a developer and also available ways to contact me with simple and dynamic features.
 
 ### Languages
 
