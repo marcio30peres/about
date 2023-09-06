@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>About Márcio</title>
   </head>
-  <body>
+  <body onload="var typed = returnTyped()">
     <div id="profile">
       <img
         src="./assets/perfil.jpg"
@@ -67,20 +67,6 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#auto-typing", {
-        strings: [
-          "^500 System developer^500",
-          "^500 HTML, CSS, JS, PHP^500",
-          "^500 React, Nest, Laravel^500",
-          "^500 Git, Github^500",
-          "^500 Advanced English^500",
-          "^500 Contact me!^500",
-        ],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true,
-      })
-    </script>
+    <script src="./scripts.js"></script>
   </body>
 </html>
